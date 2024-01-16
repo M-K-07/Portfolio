@@ -15,12 +15,10 @@ body {
 /* Nav Bar Styling */
 .right ul {
   display: flex;
-  /* margin: 0px 23px; */
 }
 nav {
   background-color: rgb(15 15 61);
   display: flex;
-  /* height: 89px; */
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -59,7 +57,6 @@ nav {
 }
 .left-with-logo {
   display: flex;
-  /* margin-right: 10rem; */
 }
 .right ul li a:hover {
   color: blueviolet;
@@ -267,13 +264,10 @@ hr {
   display: flex;
   justify-content: space-evenly;
   padding-top: 44px;
-  /* gap: 23px; */
-  /* align-items: center; */
 }
 .para1 {
   margin: 33px 0px;
   width: 55%;
-  /* text-align: justify; */
 }
 .about3 {
   padding-bottom: 54px;
@@ -383,7 +377,6 @@ footer h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 62px; */
     padding: 0;
     width: 100%;
   }
@@ -404,7 +397,6 @@ footer h2 {
     margin: 0 auto;
   }
   .leftsec .buttons {
-    /* padding: 44px 0px; */
     display: flex;
     justify-content: space-evenly;
   }
@@ -487,22 +479,3 @@ footer h2 {
     margin: 38px auto;
   }
 }
-
-/* @media screen and (max-height: 500px), (max-width: 500px) {
-  .Firstsection {
-    margin: 0;
-    flex-direction: column-reverse;
-    height: 1200px;
-    justify-content: center;
-    align-items: center;
-  }
-  .leftsec {
-    width: 70%;
-  }
-  .rightsec img {
-    width: 500px;
-  }
-  header {
-    height: 140px;  }
-
-} */
