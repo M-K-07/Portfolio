@@ -1,0 +1,503 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(0, 0, 38);
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav Bar Styling */
+.right ul {
+  display: flex;
+  /* margin: 0px 23px; */
+}
+nav {
+  background-color: rgb(15 15 61);
+  display: flex;
+  /* height: 89px; */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-around;
+}
+.right ul li {
+  padding: 23px;
+  list-style: none;
+}
+.right ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+  transition-timing-function: ease-out;
+}
+.title {
+  /* /* margin: 20px 0px; */
+  padding: 24px 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.logo img {
+  width: 75px;
+  height: 75px;
+  margin: 4px 0px;
+}
+.right {
+  padding: 9px 0px;
+}
+.left-with-logo {
+  display: flex;
+  /* margin-right: 10rem; */
+}
+.right ul li a:hover {
+  color: blueviolet;
+  width: 20px;
+  height: 20px;
+}
+
+/* s\Section styling */
+
+.Firstsection {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  margin: 91px 0px;
+  max-height: 40%;
+}
+hr {
+  border: 0;
+  background-color: grey;
+  height: 0.2px;
+  margin: 20px 250px;
+}
+.Firstsection h1 {
+  font-size: 2.5rem;
+}
+
+.leftsec {
+  width: 45%;
+  padding: 100px 0px;
+  margin: 45px;
+  font-size: 1rem;
+  height: 100%;
+}
+.rightsec img {
+  width: 400px;
+  padding: 39px 0px;
+  left: 17px;
+  position: relative;
+}
+
+.rightsec {
+  width: 30%;
+}
+.leftsec span {
+  color: blueviolet;
+}
+.type {
+  font-size: 1.5rem;
+  padding: 10px 0px;
+}
+
+.Secondsection {
+  max-width: 80%;
+  padding: 40px 0px;
+  margin: auto;
+  text-align: center;
+}
+.buttons {
+  margin: 23px 0px;
+  gap: 20px;
+}
+.buttons button {
+  width: 91px;
+  height: 30px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.4s;
+  transition-timing-function: ease-out;
+}
+.buttons button:hover {
+  background-color: blueviolet;
+  color: black;
+  font-weight: bold;
+}
+.b1 {
+  margin-left: 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.projects div {
+  width: 80vw;
+  border: 2px solid rgb(66, 70, 73);
+  border-radius: 8px;
+  margin: 31px 45px;
+  padding: 23px;
+  cursor: pointer;
+  transition: all 0.3s;
+  transition-timing-function: ease-out;
+}
+.projects div img {
+  width: 100%;
+  margin-bottom: 23px;
+  border-radius: 10px;
+}
+.projects button {
+  margin: 23px 0px;
+  width: 30%;
+  background-color: blueviolet;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  color: aliceblue;
+  transition: all 0.4s;
+  transition-timing-function: ease-out;
+  font-weight: bold;
+}
+.projects button:hover {
+  background-color: rgb(62, 144, 185);
+  color: aliceblue;
+  font-weight: bold;
+}
+.projects h2 {
+  margin-bottom: 23px;
+  color: blueviolet;
+}
+.projects div:hover {
+  box-shadow: 0px 0px 15px 2px blueviolet;
+}
+
+.thirdsection {
+  max-width: 70%;
+  margin: auto;
+  height: 662px;
+  margin-top: 44px;
+}
+.thirdsection h1 {
+  text-align: center;
+}
+.thirdsection .line {
+  background-color: aliceblue;
+  height: 1px;
+  width: 70vw;
+  margin: 150px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.thirdsection .vertical {
+  height: 60px;
+  width: 1px;
+  background-color: aliceblue;
+}
+.thirdsection .img-log {
+  position: relative;
+  width: 40px;
+  top: -57px;
+  right: 18px;
+  transition: all 0.2s ease-in-out;
+}
+.thirdsection .img-log:hover {
+  position: relative;
+  top: -70px;
+}
+
+.thirdsection .vertical-cont {
+  position: relative;
+  top: 36px;
+  right: 67px;
+  width: 200px;
+  color: grey;
+}
+.thirdsection .vertical-title {
+  position: relative;
+  top: 27px;
+  right: 17px;
+  color: blueviolet;
+  font-size: 1rem;
+}
+
+.thirdsection .vertical-title span {
+  position: relative;
+  right: 20px;
+  top: -5px;
+}
+
+.fourthsection {
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+.fourthsection h1 {
+  margin: 30px 0px;
+}
+.fourthsection p {
+  padding: 10px 0px;
+}
+
+.abt-img {
+  width: 24%;
+  border-radius: 15px;
+  margin-bottom: 23px;
+  box-shadow: 0px 5px 31px blueviolet;
+  margin-left: 60px;
+}
+.about1,
+.about2,
+.about3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 44px;
+  /* gap: 23px; */
+  /* align-items: center; */
+}
+.para1 {
+  margin: 33px 0px;
+  width: 55%;
+  /* text-align: justify; */
+}
+.about3 {
+  padding-bottom: 54px;
+}
+
+/* Footer Styling */
+footer h2 {
+  text-align: center;
+  margin: 54px 0px;
+}
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 62px 0px;
+}
+.foot .foothead {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 71px 0px;
+}
+.foot .list li {
+  list-style: none;
+  padding: 8px 0px;
+  text-decoration: none;
+}
+.foot .list li a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.foot .list li a:hover {
+  color: rgb(62, 144, 185);
+}
+.foot-img {
+  width: 36px;
+  position: relative;
+  top: 10px;
+  right: 29px;
+}
+.fb {
+  width: 30px;
+  position: relative;
+  left: -24px;
+}
+.git {
+  filter: invert(1);
+  width: 30px;
+  right: 24px;
+}
+
+.rights {
+  text-align: center;
+  color: gray;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  body {
+    min-width: fit-content;
+    max-width: fit-content;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 169px;
+    flex-direction: column;
+    font-size: 0.8rem;
+    position: fixed;
+  }
+  .title {
+    padding: 24px 0px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .right ul li {
+    padding: 23px;
+    list-style: none;
+    font-size: 1.2rem;
+  }
+
+  .Firstsection {
+    margin: 0;
+    flex-direction: column-reverse;
+  }
+  .left-with-logo {
+    position: absolute;
+    bottom: 56px;
+  }
+  .right {
+    padding: 40px 0px;
+    position: absolute;
+    top: 63px;
+  }
+  .logo img {
+    width: 62px;
+    height: 59px;
+    margin: 8px 0px;
+  }
+  header {
+    width: -webkit-fill-available;
+  }
+  .rightsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 62px; */
+    padding: 0;
+    width: 100%;
+  }
+  .rightsec img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 659px;
+    top: 206px;
+  }
+  .leftsec {
+    display: block;
+    width: 700px;
+    text-align: center;
+    height: 100%;
+    top: 73px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .leftsec .buttons {
+    /* padding: 44px 0px; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .leftsec .buttons button {
+    width: 121px;
+    height: 50px;
+  }
+  .leftsec h1 {
+    font-size: 3rem;
+  }
+  .leftsec p {
+    font-size: 1.2rem;
+    padding: 44px 0px;
+    width: 594px;
+    display: block;
+    margin: auto;
+}
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+  hr {
+    margin: 23px 100px;
+  }
+
+  .para1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 91px;
+  }
+  .about1,
+  .about2,
+  .about3 {
+    position: relative;
+    padding: 68px 0px;
+  }
+  .abt-img {
+    width: 189px;
+    height: 89px;
+    position: absolute;
+    top: 36px;
+    display: block;
+    margin: 0 auto;
+  }
+  .projects h2 {
+    margin-bottom: 23px;
+  }
+  .projects div {
+    width: 600px;
+  }
+  .projects div img {
+    width: 450px;
+  }
+  .thirdsection {
+    height: 900px;
+  }
+
+  .thirdsection .vertical {
+    height: 140px;
+  }
+  .thirdsection .vertical-title {
+    left: 58px;
+  }
+  .thirdsection .vertical-cont {
+    top: -14px;
+    left: 146px;
+    width: 400px;
+    font-size: 0.8rem;
+  }
+  .thirdsection .img-log {
+    top: 67px;
+    pointer-events: none;
+  }
+  .thirdsection .line {
+    margin: 38px 0px;
+    width: 100%;
+    flex-direction: column;
+    display: block;
+    margin: 38px auto;
+  }
+}
+
+/* @media screen and (max-height: 500px), (max-width: 500px) {
+  .Firstsection {
+    margin: 0;
+    flex-direction: column-reverse;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftsec {
+    width: 70%;
+  }
+  .rightsec img {
+    width: 500px;
+  }
+  header {
+    height: 140px;  }
+
+} */
