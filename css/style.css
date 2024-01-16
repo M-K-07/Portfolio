@@ -255,7 +255,7 @@ hr {
   width: 24%;
   border-radius: 15px;
   margin-bottom: 23px;
-  box-shadow: 0px 5px 31px blueviolet;
+  box-shadow: 0px 0px 10px blueviolet;
   margin-left: 60px;
 }
 .about1,
@@ -416,7 +416,7 @@ footer h2 {
     width: 594px;
     display: block;
     margin: auto;
-}
+  }
   .projects {
     display: flex;
     flex-direction: column;
@@ -428,9 +428,9 @@ footer h2 {
   .para1 {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin-top: 91px;
-  }
+    width: 500px;
+    margin-top: 180px;
+}
   .about1,
   .about2,
   .about3 {
@@ -438,8 +438,8 @@ footer h2 {
     padding: 68px 0px;
   }
   .abt-img {
-    width: 189px;
-    height: 89px;
+    width: 277px;
+    height: 151px;
     position: absolute;
     top: 36px;
     display: block;
