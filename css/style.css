@@ -384,20 +384,22 @@ footer h2 {
   }
   .rightsec img {
     display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 659px;
-    top: 206px;
-  }
+    margin: 83px auto;
+    padding: 66px;
+    width: 674px;
+    top: 126px;
+    /* bottom: 116px; */
+    /* right: 119px; */
+}
   .leftsec {
     display: block;
     width: 700px;
     text-align: center;
     height: 100%;
-    top: 73px;
+    top: -46px;
     position: relative;
     margin: 0 auto;
-  }
+}
   .leftsec .buttons {
     /* padding: 44px 0px; */
     display: flex;
