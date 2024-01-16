@@ -41,10 +41,13 @@ nav {
   transition-timing-function: ease-out;
 }
 .title {
-  /* /* margin: 20px 0px; */
-  padding: 24px 0px;
-  font-size: 1.5rem;
-  font-weight: bold;
+    padding: 24px 0px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: 'Genos', sans-serif;
+}
+.title span{
+  color: blueviolet;
 }
 .logo img {
   width: 75px;
@@ -331,7 +334,6 @@ footer h2 {
 @media screen and (max-width: 1024px) {
   body {
     min-width: fit-content;
-    max-width: fit-content;
   }
   .navbar {
     display: flex;
@@ -342,11 +344,11 @@ footer h2 {
     font-size: 0.8rem;
     position: fixed;
   }
-  .title {
-    padding: 24px 0px;
-    font-size: 1.8rem;
+.title {
+    padding: 22px 0px;
+    font-size: 2.7rem;
     font-weight: bold;
-  }
+}
   .right ul li {
     padding: 23px;
     list-style: none;
@@ -359,7 +361,10 @@ footer h2 {
   }
   .left-with-logo {
     position: absolute;
-    bottom: 56px;
+    bottom: 66px;
+  }
+  .left-with-logo .logo{
+    padding-top: 9px;
   }
   .right {
     padding: 40px 0px;
