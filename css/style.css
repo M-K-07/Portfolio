@@ -92,7 +92,7 @@ hr {
 }
 .rightsec img {
   width: 400px;
-  padding: 39px 0px;
+  padding: 69px 0px;
   left: 17px;
   position: relative;
 }
@@ -380,13 +380,14 @@ footer h2 {
     padding: 0;
     width: 100%;
   }
+
   .rightsec img {
     display: block;
     margin: 0 auto;
-    padding: 0;
-    width: 659px;
-    top: 206px;
-  }
+    padding: 124px 0;
+    width: 578px;
+    top: 200px;
+}
   .leftsec {
     display: block;
     width: 700px;
@@ -467,6 +468,11 @@ footer h2 {
     width: 400px;
     font-size: 0.8rem;
   }
+  .thirdsection .vertical-title span {
+    position: relative;
+    right: 20px;
+    top: 0px;
+}
   .thirdsection .img-log {
     top: 67px;
     pointer-events: none;
