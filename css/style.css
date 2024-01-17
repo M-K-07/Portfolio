@@ -64,7 +64,7 @@ nav {
   height: 20px;
 }
 
-/* s\Section styling */
+/* Section styling */
 
 .Firstsection {
   display: flex;
@@ -91,9 +91,8 @@ hr {
   height: 100%;
 }
 .rightsec img {
-  width: 400px;
-  padding: 69px 0px;
-  left: 17px;
+  width: 419px;
+  padding: 45px 0px;
   position: relative;
 }
 
