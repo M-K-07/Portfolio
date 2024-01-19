@@ -447,6 +447,7 @@ footer h2 {
   }
   .projects div {
     width: 600px;
+    pointer-events: none;
   }
   .projects div img {
     width: 450px;
