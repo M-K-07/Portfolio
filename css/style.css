@@ -438,7 +438,7 @@ footer h2 {
   .leftsec .buttons button {
     width: 121px;
     height: 50px;
-    z-index: -1;
+    z-index: 0;
   }
   .leftsec h1 {
     font-size: 3rem;
