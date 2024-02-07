@@ -512,6 +512,7 @@ footer h2 {
   .thirdsection .img-log {
     top: 67px;
     pointer-events: none;
+    animation: none;
   }
   .thirdsection .line {
     margin: 38px 0px;
