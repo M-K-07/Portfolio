@@ -129,7 +129,8 @@ hr {
   font-weight: bold;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
+  
   
 }
 .buttons button::before{
@@ -233,12 +234,20 @@ hr {
   width: 40px;
   top: -57px;
   right: 18px;
-  transition: all 0.2s ease-in-out;
+  animation: float 2s ease infinite;
 }
-.thirdsection .img-log:hover {
-  position: relative;
-  top: -70px;
+@keyframes float {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-13px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
+
 
 .thirdsection .vertical-cont {
   position: relative;
@@ -348,7 +357,7 @@ footer h2 {
 /* Responsive */
 @media screen and (max-width: 1024px) { 
   * {
-   animation-name: none;
+   scroll-behavior: smooth;
   }
   body {
     min-width: fit-content;
