@@ -58,6 +58,7 @@ nav {
 .left-with-logo {
   display: flex;
 }
+
 .right ul li a:hover {
   color: blueviolet;
   width: 20px;
@@ -99,6 +100,7 @@ hr {
 .rightsec {
   width: 30%;
 }
+
 .leftsec span {
   color: blueviolet;
 }
@@ -118,20 +120,40 @@ hr {
   gap: 20px;
 }
 .buttons button {
-  width: 91px;
-  height: 30px;
+  width: 100px;
+  height: 45px;
   background-color: aliceblue;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
   font-weight: bold;
-  transition: all 0.4s;
-  transition-timing-function: ease-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+.buttons button::before{
+  content: "";
+  left: 0;
+  top: 0;
+  background-color: rgb(80, 18, 138);
+  position: absolute;
+  height: 100%;
+  width: 0;
+  transition: .5s ease;
+}
+.buttons button:nth-child(2){
+  background-color: rgb(0, 0, 38);
+  color: aliceblue;
+  border: 1px solid white;
+}
+.buttons button:hover::before{
+  background-color: blueviolet;
+  width: 100%;
+  z-index: -1
 }
 .buttons button:hover {
-  background-color: blueviolet;
-  color: black;
-  font-weight: bold;
+  color: aliceblue;
 }
 .b1 {
   margin-left: 20px;
@@ -183,6 +205,7 @@ hr {
   box-shadow: 0px 0px 15px 2px blueviolet;
 }
 
+
 .thirdsection {
   max-width: 70%;
   margin: auto;
@@ -231,7 +254,6 @@ hr {
   color: blueviolet;
   font-size: 1rem;
 }
-
 .thirdsection .vertical-title span {
   position: relative;
   right: 20px;
@@ -324,7 +346,10 @@ footer h2 {
 }
 
 /* Responsive */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) { 
+  * {
+   animation-name: none;
+  }
   body {
     min-width: fit-content;
   }
@@ -384,7 +409,7 @@ footer h2 {
     display: block;
     margin: 0 auto;
     padding: 0;
-    width: 659px;
+    width: 557px;
     top: 206px;
   }
   .leftsec {
@@ -398,7 +423,8 @@ footer h2 {
   }
   .leftsec .buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 0 103px;
   }
   .leftsec .buttons button {
     width: 121px;
