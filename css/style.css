@@ -193,17 +193,14 @@ hr {
   transition-timing-function: ease-out;
   font-weight: bold;
 }
-.projects button:hover {
-  background-color: rgb(62, 144, 185);
-  color: aliceblue;
-  font-weight: bold;
-}
+
 .projects h2 {
   margin-bottom: 23px;
   color: blueviolet;
 }
 .projects div:hover {
   box-shadow: 0px 0px 15px 2px blueviolet;
+  scale: 1.05;
 }
 
 
